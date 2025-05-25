@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>AI Resume Builder | Upload Resume</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <style>
+        body {
+            background: linear-gradient(to right, #667eea, #764ba2);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .upload-box {
+            background-color: white;
+            color: #333;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+        .upload-box h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #764ba2;
+        }
+        .upload-box img {
+            width: 80px;
+            margin-bottom: 15px;
+        }
+        .upload-box p {
+            font-size: 1rem;
+            color: #555;
+        }
+        .form-control {
+            margin-top: 20px;
+        }
+        .btn-upload {
+            background-color: #764ba2;
+            color: white;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .btn-upload:hover {
+            background-color: #5a3e87;
+        }
+    </style>
+</head>
+<body>
+    <div class="upload-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="AI Resume Icon" />
+        <h1>Top AI Resume Builder</h1>
+        <p>Upload your resume (PDF) and get matched jobs + AI-generated cover letters instantly!</p>
+
+        <!-- CHANGE action here to "/" -->
+        <form method="POST" action="/" enctype="multipart/form-data">
+            <input class="form-control" type="file" name="resume" accept=".pdf" required />
+            <button type="submit" class="btn btn-upload btn-lg w-100">🚀 Upload & Generate</button>
+        </form>
+    </div>
+</body>
+</html>
+
