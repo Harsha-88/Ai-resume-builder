@@ -1,4 +1,4 @@
-# AI Resume Builder
+# SmartApply AI: Intelligent Resume-to-Job Automation Platform
 
 [Live Demo](https://ai-resume-builder-nrlc.onrender.com) | [GitHub Repo](https://github.com/Harsha-88/Ai-resume-builder)
 
